@@ -15,12 +15,12 @@ weight = float(input("What is your weight in lbs?: "))
 bmi = (round(weight / height ** 2 * 703, 2)) 
 
 if bmi <= 18.5:
-    print(f"Your BMI is {bmi}. You are UNDERWEIGHT. Eat some cornbread")
+    print(f"Your BMI is {bmi}. You are UNDERWEIGHT. Have a milkshake")
 elif bmi <= 24.9:
     print(f"Your BMI is {bmi}. You are a HEALTHY weight. Keep up the good work! Stay between 18.5 - 24.9.")
 elif bmi <= 29.9:
     print(f"Your BMI is {bmi}. You are OVERWEIGHT. Your BMI should be between 18.5 - 24.9.")
-    print("A BMI of 28+ is linked to a higher risk of Type II Diabetes for Black people")
+    print("A BMI of 28+ is linked to a higher risk of Type II Diabetes")
     print("Increase calories spent and decrease calories eaten")
 elif bmi <= 39.9:
     print(f"Your BMI is {bmi}. You are OBESE.")
