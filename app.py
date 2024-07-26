@@ -11,7 +11,7 @@ import pandas
 #     file.write(f"\n{bmi}")
 
 height = float(input("Enter your height in inches?: "))
-weight = float(input("What is your weight in lbs?: ")) 
+weight = float(input("What is your weight in lbs?: "))  
 bmi = (round(weight / height ** 2 * 703, 2)) 
 
 if bmi <= 18.5:
