@@ -12,7 +12,7 @@ import pandas
 
 height = float(input("Enter your height in inches?: "))
 weight = float(input("What is your weight in lbs?: "))
-bmi = (round(weight / height ** 2 * 703, 2))
+bmi = (round(weight / height ** 2 * 703, 2)) 
 
 if bmi <= 18.5:
     print(f"Your BMI is {bmi}. You are UNDERWEIGHT. Eat some cornbread")
