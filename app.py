@@ -5,7 +5,7 @@
 # with open("my_file.txt") as file:
 #     contents = file.read()
 #     print(contents)
-import pandas
+import pandas 
 
 # with open("my_file.txt", mode="a") as file:
 #     file.write(f"\n{bmi}")
